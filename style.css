@@ -1,0 +1,47 @@
+body {
+  background-color: royalblue;
+}
+p {
+  color: lavender;
+}
+h2 {
+  text-align: center;
+  border-style: solid;
+  border-color:plum; 
+  background-color:blueviolet;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+/* Link styles */
+a:link{
+  color: #710909;
+}
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+  color: violet;
+  border-style: dotted;
+}
+a:active{
+  color: blueviolet;
+  border-style: groove;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.link-card{
+  display: flex;
+  align-items: flex-start;
+}
